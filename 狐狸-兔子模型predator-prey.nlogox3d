@@ -12,7 +12,7 @@ to setup
   ca
 
   ;; Create Rabbits (Prey)
-  create-turtles 80 [
+  create-turtles 100 [
     setxy random-xcor random-ycor
     set color green   ;; prey
     set energy 10
